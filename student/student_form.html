@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertion</title>
+</head>
+<body>
+    <header>
+        <h4>Bienvenue</h4>
+        <div>
+            <a href="../user/user_manager.cgi?action=logout" >Deconnection?</a>
+        </div>
+    </header>
+    <h2>Inscription</h2>
+    <form action="./student_manager.cgi" method="get" accept-charset="UTF-8">
+        <input type="hidden" name="action" value="create">
+
+        <label for="name">lastname:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        
+        <label for="prenom">firstname:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        
+        <label for="age">age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        
+        <label for="Adresse">Adresse:</label>
+        <input type="text" id="adresse" name="adresse" required><br><br>
+
+        <label for="number">tel:</label>
+        <input type="text" id="numberTel" name="numberTel" required><br><br>
+
+        <label for="classe">Class:</label>
+        <input type="text" id="classe" name="classe" required><br><br>
+
+        <label for="numberCard">Numéros de carte:</label>
+        <input type="text" id="numberCard" name="numberCard" required><br><br>
+        
+        <input type="submit" value="Envoyer">
+    </form>
+    <a href="http://www.site1.mg/student/student_manager.cgi?action=view">Afficher la liste</a>
+</body>
+</html>
