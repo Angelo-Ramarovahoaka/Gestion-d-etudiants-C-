@@ -1,7 +1,7 @@
 ## Gestionnaire d'Étudiants en C++
 <div style="display: flex;">
-<img src="./acceuil.png">
-<img src="./student.png">  
+<img src="./acceuil.png" style="width: 40%;">
+<img src="./student.png" style="width: 40%;">  
 </div>
 
 Le **Gestionnaire d'Étudiants** est une application C++ qui permet de gérer efficacement des informations sur des étudiants via une interface CGI (Common Gateway Interface). Le projet est conçu pour faciliter l'ajout, la modification, la suppression et l'affichage des données des étudiants, tout en offrant une interface web simple et interactive.
